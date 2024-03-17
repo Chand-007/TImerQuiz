@@ -1,0 +1,25 @@
+.container-score{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid brown;
+    position:relative;
+}
+
+.resetButton{
+    position:absolute;
+    top:50px;
+    left:50px;
+}
+
+.reset{
+    width:120px;
+    height:25px;
+    border-radius: 5px;
+    background-color: transparent;
+    border:1px solid black;
+    cursor:pointer;
+}

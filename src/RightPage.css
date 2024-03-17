@@ -1,0 +1,70 @@
+/* Apply box-sizing to all elements, including pseudo-elements */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    width:45vw;
+    height:100vh;
+    padding:10px;
+}
+
+.top-container{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.top-container h2{
+    font-size:1rem;
+}
+
+.clockComponent{
+    font-size:1.2rem;
+}
+
+.Next-button{
+    width:100px;
+    height:28px;
+    padding:6px;
+    background-color: black;
+    color:white;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+.AnswerContainer{
+    margin-top:15px;
+    width:100%;
+}
+
+.answer-H{
+    height:60px;
+    width:100%;
+    margin-bottom: 15px;
+    padding:10px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius:7px;
+    border:1px solid black;
+    cursor:pointer;
+}
+
+.option{
+    font-size:3rem;
+    color:rgb(196, 191, 191);
+}
+
+.new-option{
+    font-size: 3rem;
+    color:rgb(100, 196, 228);
+}
+

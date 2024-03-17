@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+.container{
+    background-color: white;
+    margin-left:25px;
+    margin-top:25px;
+    position:relative;
+    height:100vh;
+    width:45vw;
+    padding:10px;
+}
+
+h1{
+    font-size: 1rem;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+.WorkIcon{
+    margin-top:25px;
+    font-size:25px;
+}
+
+.SectionHeading{
+    margin-top:25px;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+}
+
+.QuestionStatus{
+    font-size: 0.8rem;
+}
+
+.questioncontainer{
+    margin-left:55px;
+    margin-top:50px;
+    font-size: 0.75rem;
+}
+
+.BannerContainer{
+    position:absolute;
+    left:0px;
+    bottom:100px;
+    border:1px solid lightblue;
+    width:500px;
+    height:100px;
+    padding:10px;
+    display:flex;
+    gap:10px;
+    border-radius: 2px;
+    background-color: rgb(215, 237, 245);
+}
+
+.Dangericon{
+    font-size: 25px;
+    color:rgb(76, 179, 213);
+}
+
+.ButtonContainer{
+    position:absolute;
+    left:0px;
+    bottom:50px;
+    display:flex;
+    gap:20px;
+}
+
+.reload,
+.report{
+    width:120px;
+    border:1px solid black;
+    height:25px;
+    border-radius: 5px;
+    background: transparent;
+    cursor:pointer;
+}
